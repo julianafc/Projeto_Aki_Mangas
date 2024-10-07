@@ -1,62 +1,62 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link href="estilo.css" rel="stylesheet" type="text/css" />
+    <link href="header-carrinho.css" rel="stylesheet" type="text/css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@mdi/font@6.5.95/css/materialdesignicons.min.css"
+    />
+    <title>Aki Mangás</title>
+  </head>
 
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
-  <link href="estilo.css" rel="stylesheet" type="text/css" />
-  <link href="header-carrinho.css" rel="stylesheet" type="text/css" />
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@mdi/font@6.5.95/css/materialdesignicons.min.css">
-  <title>loja de mangas</title>
-</head>
+  <body>
+    <!-- header  -->
 
-<body>
-  <!-- header  -->
+    <div id="cabecalho">
+      <div id="esquerda">
+        <h1 id="nome-pagina">Aki Mangás</h1>
 
-  <div id="cabecalho">
-    <div id="esquerda">
-    <h1 id="nome-pagina">Aki Mangás</h1>
+        <!-- menu -->
 
-    <!-- menu -->
+        <nav>
+          <ul>
+            <li><a class="menu" href="index.html">Home</a></li>
+            <li><a class="menu" href="mangas.html">Mangás</a></li>
+            <li><a class="menu" href="novels.html">Novels</a></li>
 
-    <nav>
-      <ul>
-        <li><a class="menu" href="index.html">Home</a></li>
-        <li><a class="menu"href="mangas.html">Mangás</a></li>
-        <li><a class="menu"href="novels.html">Novels</a></li>
+            <li id="genero">
+              <div class="dropdown">
+                <a class="dropbtn">Gênero</a>
+                <div class="dropdown-content">
+                  <a href="romances.html">Romance</a>
+                  <a href="acao.html">Ação</a>
+                  <a href="comedia.html">Comédia</a>
+                </div>
+              </div>
+            </li>
 
-        <li id="genero">
-          <div class="dropdown">
-            <a class="dropbtn">Genero</a>
-            <div class="dropdown-content">
-              <a href="romances.html">Romance</a>
-              <a href="acao.html">Ação</a>
-              <a href="comedia.html">Comedia</a>
-            </div>
-          </div>
-        </li>
-
-        <li id="ultimo"><a class="menu"href="contato.html">Contato</a></li>
-      </ul>
-    </nav>
+            <li id="ultimo"><a class="menu" href="contato.html">Contato</a></li>
+          </ul>
+        </nav>
+      </div>
+      <!-- fim menu -->
+      <div id="direita">
+        <div style="visibility: hidden">a</div>
+        <a href="carrinho.html"><span class="mdi mdi-cart-outline"></span></a>
+      </div>
     </div>
-    <!-- fim menu -->
-    <div id="direita">
-      <div style="visibility: hidden;"> a </div>
-     <a href="carrinho.html"><span class="mdi mdi-cart-outline"></span></a>
-    </div>
-  </div>
 
-  <!-- fim header -->
+    <!-- fim header -->
 
+    <!-- corpo do site -->
 
-  <!-- corpo do site -->
+    <div id="principal"><div id="conteiner"></div></div>
 
-  <div id="principal"><div id="conteiner"> </div></div>
+    <!-- fim corpo -->
 
-  <!-- fim corpo -->
-
-  <script src="script.js"></script>
-</body>
-
+    <script src="script.js"></script>
+  </body>
 </html>
