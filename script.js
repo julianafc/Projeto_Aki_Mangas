@@ -2,16 +2,16 @@ let conteiner = document.getElementById('conteiner');
 let contador = 1;
 let quant = 20;
 
-let dbCompras = []; 
+let dbCompras = [];
 
 obterComprasLocalStorage();
 aparecerNaTela();
 
-function deletar(idCompra){
+function deletar(idCompra) {
 
   const indiceCompra = dbCompras.findIndex(c => c.id == idCompra);
-  if(indiceCompra >= 0){
-      throw new Error('Id da compra não encontrado: ', idCompra);
+  if (indiceCompra >= 0) {
+    throw new Error('Id da compra não encontrado: ', idCompra);
   }
 
   dbCompras = dbCompras.splice(indiceCompra, 1);
@@ -21,7 +21,7 @@ function deletar(idCompra){
   compra.remove();
 }
 
-function tirarTela(idCompra){
+function tirarTela(idCompra) {
   var compra = document.getElementById(idCompra);
   compra.remove();
 }
@@ -30,35 +30,35 @@ var aumentar = document.getElementById('aumentar');
 var diminuir = document.getElementById('diminuir');
 var control = 1;
 
-function somar(qtn){
+function somar(qtn) {
   control++;
   console.log(control);
   var text = document.getElementById(qtn).innerHTML = control;
 }
 
-function subtrair(qtn){
+function subtrair(qtn) {
   control--;
   console.log(control);
   var text = document.getElementById(qtn).innerHTML = control;
 }
 
-function obterComprasLocalStorage(){
-  if(localStorage.getItem('dbCompras')){
+function obterComprasLocalStorage() {
+  if (localStorage.getItem('dbCompras')) {
     dbCompras = JSON.parse(localStorage.getItem('dbCompras'));
   }
 }
 
-function aparecerNaTela(){
-  for (let i=0; i < dbCompras.length; i++){
+function aparecerNaTela() {
+  for (let i = 0; i < dbCompras.length; i++) {
     conteiner.innerHTML += dbCompras[i];
   }
 }
 
-function jujk(){
+function jujk() {
 
-  ++contador;  
+  ++contador;
 
-let jjk = `<div id="${contador}" class="compras">
+  let jjk = `<div id="${contador}" class="compras">
       <div class="compras-foto">
           <div class = "capa"> <a href="produtos/jjk1.html"><img src="https://m.media-amazon.com/images/I/71PBZJaSmAL._AC_UF1000,1000_QL80_.jpg"></a>  </div>
       </div>
@@ -86,11 +86,11 @@ let jjk = `<div id="${contador}" class="compras">
 
 
 
-function boku(){
+function boku() {
 
-  ++contador;  
+  ++contador;
 
-let bnh = `<div id="${contador}" class="compras">
+  let bnh = `<div id="${contador}" class="compras">
       <div class="compras-foto">
         <div class = "capa"> <a href="produtos/bnh1.html"><img src="https://m.media-amazon.com/images/I/71bELfIWTDL._SY466_.jpg"></a>  </div>
       </div>
@@ -116,11 +116,11 @@ let bnh = `<div id="${contador}" class="compras">
   ++quant;
 }
 
-function mut(){
+function mut() {
 
-  ++contador;  
+  ++contador;
 
-let mt = `<div id="${contador}" class="compras">
+  let mt = `<div id="${contador}" class="compras">
       <div class="compras-foto">
           <div class = "capa">  <a href="produtos/mt1.html"><img src="https://m.media-amazon.com/images/I/81vgliRXgRL._AC_UF1000,1000_QL80_.jpg"></a>  </div>
       </div>
@@ -146,11 +146,11 @@ let mt = `<div id="${contador}" class="compras">
   ++quant;
 }
 
-function chain(){
+function chain() {
 
-  ++contador;  
+  ++contador;
 
-let csm = `<div id="${contador}" class="compras">
+  let csm = `<div id="${contador}" class="compras">
       <div class="compras-foto">
           <div class = "capa"> <a href="produtos/cm1.html"><img src="https://m.media-amazon.com/images/I/71QS2yNxhoL._AC_UF1000,1000_QL80_.jpg"></a>  </div>
       </div>
