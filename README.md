@@ -27,9 +27,9 @@
 
  <h2> Imagens do projeto: </h2>
   <h3> Tela inicial: </h3>
-    <img src="https://github.com/user-attachments/assets/9c5820be-3eda-4eed-b6c8-84c4c3cbda2c" alt="Tela inicial"> <br> <br>
+    <img src="https://github.com/user-attachments/assets/84fa5ea2-ae6a-45f1-9f1f-b83764f5abb5"> <br> <br>
 
  <h3> Tela de detalhes do produto: </h3>   
-    <img src="https://github.com/user-attachments/assets/cfb2ea39-1e26-4536-acfc-acc5809089fb" alt="Tela de detalhes do produto">
+    <img src="https://github.com/user-attachments/assets/7709d445-f2c4-4c55-91fc-d5970e8fe628" alt="Tela de detalhes do produto">
 
 </div>
