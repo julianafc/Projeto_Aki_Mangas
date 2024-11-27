@@ -146,7 +146,7 @@ li {
 /******************* CORPO PADRAO ***********************/
 .nome-manga {
   text-align: center;
-  margin: 0px 0px 10px 0px;
+  margin: 10px 0 0 0;
 }
 
 
@@ -159,6 +159,8 @@ table {
   text-align: center;
   margin: 0px;
   height: 10px;
+  font-family: "sawarabi mincho";
+  font-size: 28px;
 }
 
 td {
@@ -167,20 +169,34 @@ td {
 
 .quadrado {
   background-color: rgb(255, 255, 255);
-  width: 200px;
-  height: 400px;
+  width: 208px;
+  height: 408px;
   border: 3px groove #e4dddd;
   box-shadow: 10px 10px 10px #707070;
+  border-radius: 10px;
+  text-align: center;
+  font-family: "Inter";
+
+  img{
+    margin: 10px 0;
+    padding: 0;
+  }
+
+  span{
+    padding: 0;
+  }
 }
 
 .comprar {
   background-color: rgb(192, 0, 0);
   color: white;
   width: 155px;
-  height: 28px;
+  height: 35px;
   border-radius: 50px;
-  padding: 12px 0px 0px 25px;
-  margin: 10px 0px 0px 10px;
+  margin-left: auto;
+  margin: 10px auto;
+  padding-bottom: auto;
+  text-align: center;
 }
 
 .comprar:hover {
@@ -269,13 +285,13 @@ td {
   margin-left: 41%;
   padding: 10px 25px;
   color: black;
-  background-color: #9f7cbb;
+  background-color: rgb(192, 0, 0);
   border-radius: 15px;
   transition: background-color 2s, margin-left 0.2s;
 }
-
+ 
 #botao-comprar:hover {
-  background-color: #8b5eb0;
+  background-color: rgb(155, 1, 1);
   margin-left: 40%;
   cursor: pointer;
 }
