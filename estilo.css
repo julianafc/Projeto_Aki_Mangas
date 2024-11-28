@@ -1,6 +1,7 @@
 /***************** GERAL ****************/
 body {
   background-color: #7a85ff;
+  font-family: "Inter";
 }
 
 #romance,
@@ -100,7 +101,6 @@ li {
 /*********  DROPDOWN *******/
 .dropbtn {
   background-color: #2A3BFF;
-  border: none;
   cursor: pointer;
   padding: 0px 8px 0px 5px;
   color: black;
@@ -114,6 +114,7 @@ li {
 .dropdown-content {
   display: none;
   position: absolute;
+  border-radius: 5px;
   background-color: #7a85ff;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
@@ -129,7 +130,7 @@ li {
 
 .dropdown-content a:hover {
   color: #fff;
-  background-color: #2A3BFF
+  background-color: #2A3BFF;
 }
 
 .dropdown:hover .dropdown-content {
@@ -171,7 +172,7 @@ td {
   background-color: rgb(255, 255, 255);
   width: 208px;
   height: 408px;
-  border: 3px groove #e4dddd;
+  border: 1px groove #e4dddd;
   box-shadow: 10px 10px 10px #707070;
   border-radius: 10px;
   text-align: center;
@@ -196,7 +197,9 @@ td {
   margin-left: auto;
   margin: 10px auto;
   padding-bottom: auto;
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .comprar:hover {
@@ -262,6 +265,8 @@ td {
 }
 
 #info {
+  font-family: "Inter";
+  font-weight: lighter;
   color: black;
   background-color: rgba(255, 255, 255, 0.2);
   border-radius: 20px;
@@ -271,10 +276,21 @@ td {
   height: 520px;
   margin-right: 40px;
   padding: 0px 5px;
+
+  h1{
+    margin: 15px 0 2px 0;
+    font-weight: 600;
+  }
+
+  h3{
+    margin: 0;
+    font-weight: 600;
+  }
 }
 
 #margin {
   margin-bottom: 6%;
+  font-weight: 400;
 }
 
 #botao-comprar {
