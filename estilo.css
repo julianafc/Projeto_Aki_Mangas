@@ -328,14 +328,22 @@ td {
   float: left;
   margin-top: 50px;
   width: 1150px;
-  height: 270px;
+  height: 300px;
   margin-left: 70px;
+
+  h3{
+    margin: auto;
+    padding: auto;
+    
+  }
 }
 
 #manga-recomendado {
   width: 150px;
   height: 200px;
   object-fit: contain;
+  margin: 0;
+  padding: 0;
 }
 
 .quadradin {
