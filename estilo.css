@@ -219,9 +219,19 @@ td {
 }
 
 .contato {
+  font-family: "Inter";
   height: 320px;
   background-color: #a5aaf8;
   border-radius: 20px;
+
+h3{
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+  p{
+    margin: 10px;
+  }
 }
 
 .texto {
