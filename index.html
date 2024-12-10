@@ -21,42 +21,44 @@
   </head>
 
   <body>
-    <!-- header  -->
+<!-- Cabeçalho -->
+<div id="cabecalho">
+  <div id="esquerda">
+    <h1 id="nome-pagina">AKI MANGÁS</h1>
+    <!-- Menu -->
+    <nav>
+      <ul>
+        <li><a class="menu" href="index.html">Home</a></li>
+        <li><a class="menu" href="mangas.html">Mangás</a></li>
+        <li><a class="menu" href="novels.html">Novels</a></li>
+        <li id="genero">
+          <div class="dropdown">
+            <a class="dropbtn">Gênero</a>
+            <div class="dropdown-content">
+              <a href="romances.html">Romance</a>
+              <a href="acao.html">Ação</a>
+              <a href="comedia.html">Comédia</a>
+            </div>
+          </div>
+        </li>
+        <li id="ultimo"><a class="menu" href="contato.html">Contato</a></li>
+      </ul>
+    </nav>
+    <!-- Fim do menu -->
+  </div>
+  
+  <!-- Carrinho -->
+  <div id="direita">
+    <a href="carrinho.html"><span class="mdi mdi-cart-outline"></span></a>
+  </div>
+</div>
 
-    <div id="cabecalho">
-      <div id="esquerda">
-        <h1 id="nome-pagina">AKI MANGÁS</h1>
-
-        <!-- menu -->
-
-        <nav>
-          <ul>
-            <li><a class="menu" href="index.html">Home</a></li>
-            <li><a class="menu" href="mangas.html">Mangás</a></li>
-            <li><a class="menu" href="novels.html">Novels</a></li>
-
-            <li id="genero">
-              <div class="dropdown">
-                <a class="dropbtn">Gênero</a>
-                <div class="dropdown-content">
-                  <a href="romances.html">Romance</a>
-                  <a href="acao.html">Ação</a>
-                  <a href="comedia.html">Comédia</a>
-                </div>
-              </div>
-            </li>
-
-            <li id="ultimo"><a class="menu" href="contato.html">Contato</a></li>
-          </ul>
-        </nav>
-      </div>
-      <!-- fim menu -->
-      <div id="direita">
-        <div style="visibility: hidden">a</div>
-        <a href="carrinho.html"><span class="mdi mdi-cart-outline"></span></a>
-      </div>
-    </div>
-
+<!-- Campo de busca -->
+  <div id="busca">
+  <label class="site-search" for="site-search">Procure seu mangá favorito:</label>
+  <input type="search" class="site-search" name="q">
+  <button class="site-search">Pesquisar</button>
+</div>
     <!-- fim header -->
 
     <!-- corpo do site -->

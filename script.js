@@ -175,3 +175,5 @@ function chain() {
   conteiner.innerHTML += csm;
   ++quant;
 }
+
+searchTerms = mySearch.value;
